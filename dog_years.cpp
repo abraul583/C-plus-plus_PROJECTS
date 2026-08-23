@@ -1,3 +1,13 @@
+/*
+Dogs mature at a faster rate than human beings. If you own a dog, you might’ve heard this rule: one year for Snoopy equals seven years for you. Turns out, the math isn’t that simple. Dogs mature more quickly than we do early on.
+
+Here’s how we can convert your dog’s age into human years:
+
+The first two years of a dog’s life count as 21 human years.
+Each following year counts as 4 human years.
+
+*/
+
 #include <iostream>
 
 int main() {
