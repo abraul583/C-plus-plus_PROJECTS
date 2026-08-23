@@ -1,0 +1,25 @@
+/*
+Dogs mature at a faster rate than human beings. If you own a dog, you might’ve heard this rule: one year for Snoopy equals seven years for you. Turns out, the math isn’t that simple. Dogs mature more quickly than we do early on.
+
+Here’s how we can convert your dog’s age into human years:
+
+The first two years of a dog’s life count as 21 human years.
+Each following year counts as 4 human years.
+
+*/
+
+#include <iostream>
+
+int main() 
+{
+  int dog_age;
+  std::cout<<"Enter your Dog's age:"; 
+  std::cin>>dog_age;
+
+  int early_years=21;  //first two dog years is euqal to 21 human years
+  int later_years=(dog_age-2)*4;  // after first 2 years every following dog years is equal to 4 human years.
+  int human_years=early_years+later_years;  //Equivalent Human years.
+
+  std::cout<<"Ruff ruff,I am "<<human_years<<" years old in human years.";
+  
+}
