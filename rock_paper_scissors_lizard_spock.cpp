@@ -19,9 +19,11 @@ I will compare the user's choice and the computer's chpoice and determine the wi
 using namespace std;
 int main()
 {
-srand(time(NULL));
-int computer = rand() % 5 + 1; // we have namdom number that can be 1,2,3,4 and 5
-mylabel:
+ mylabel:    //adding mylabel after rand will fix the computer's value
+ srand(time(NULL));
+ int computer = rand() % 5 + 1; // we have namdom number that can be 1,2,3,4 and 5
+
+cout<<endl;
 int user = 0;
 cout << "====================\n";
 cout << "rock paper scissors lizard and spock!\n";
@@ -90,8 +92,5 @@ else
   cout<<"You Lost!"<<endl;
 }
 
-
 goto mylabel;
-
-
 }
