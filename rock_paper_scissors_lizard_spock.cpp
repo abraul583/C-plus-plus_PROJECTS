@@ -19,7 +19,7 @@ I will compare the user's choice and the computer's chpoice and determine the wi
 using namespace std;
 int main()
 {
- mylabel:    //adding mylabel after rand will fix the computer's value
+ mylabel:    //adding mylabel after rand will fix the computer's value,which is undesirable.
  srand(time(NULL));
  int computer = rand() % 5 + 1; // we have namdom number that can be 1,2,3,4 and 5
 
