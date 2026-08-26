@@ -37,7 +37,9 @@ int main()
         }
     }
   }
+  
 cout<<"Whale says: ";
+  
   for(int k=0; k<result.size(); k++)
   {
     cout<<result[k];
