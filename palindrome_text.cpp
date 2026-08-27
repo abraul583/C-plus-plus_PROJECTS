@@ -16,7 +16,7 @@ bool is_palindrome(string text)
 
   for(int j=0;j<text.length();++j)
   { if(text[j]==' ')   //single quotes for char comparison
-    continue;
+    continue;          //we skip spaces.
     char s=tolower(text[j]);
     lower_text +=s;
   }
