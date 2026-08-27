@@ -38,9 +38,18 @@ bool is_palindrome(string text)
 }
 
 int main() {
+  cout<<"Let's check which words are palindrome!"<<endl;
+  cout<<"1 means yes. and 0 means No."<<endl;
   
- cout << is_palindrome("madam") << "\n";
-  cout << is_palindrome("ada") << "\n";
- cout << is_palindrome("lovelace") << "\n";
-  cout << is_palindrome("Race Car") << "\n";
+ cout << "Is madam a palindrome? =="<<is_palindrome("madam") << "\n";
+  cout <<"Is ada a palindrome? ==" <<is_palindrome("ada") << "\n";
+ cout << "Is lovelace a palindrome? ==" <<is_palindrome("lovelace") << "\n";
+  cout <<"Is Race Car a palindrome? ==" << is_palindrome("Race Car") << "\n";
+
+  string words;
+  cout<<"Now lets see...you give me a word :";
+  getline(cin,words);
+  cout<<"Is your word a palindrome? =="<<is_palindrome(words) << "\n";
+
+  
 }
