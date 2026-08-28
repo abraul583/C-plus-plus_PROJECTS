@@ -1,0 +1,8 @@
+This project was assigned to me in a course that i attended.
+All the instructions were clear. Like there is a codeword for the UFO that I need to guess and I get 7 lives for wrong guesses.
+If I can guess correctly I win!
+Here I tried to improve on the instructions and modify the codes to make it more interactable and easily understandable.
+I also modified the code so that case sensitivity was not there.
+
+
+Oh and there is a another aspect that could be improved on it. That is : Add a vector which is a vector of codewords that can be randomly selected in each play.
