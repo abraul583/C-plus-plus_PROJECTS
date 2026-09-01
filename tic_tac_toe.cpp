@@ -7,7 +7,7 @@ As each players input data is predetermined,so I will only ask them where they w
 There are 2 arrays. Grid holds the int value corresponding to X and O. And updated_grid contains the corresponding character.
 I built the convert_grid function to convert grid into updated_matrix.
 And I also Showed the updated matrix after each turn. (A Function for display_matrix)
-Now, I need to continuously look that if that condition is met for either of the players. (In the while loop)
+Now, I need to continuously look that if that condition is met for either of the players. (In the while loop I added some bool functions to check that.)
 
 */
 #include <iostream>
